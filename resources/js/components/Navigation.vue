@@ -35,7 +35,10 @@
             >Notes</a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>
-                <router-link :to="{name: 'notes.create'}" class="dropdown-item">Create</router-link>
+                <router-link :to="{name: 'notes.create'}" class="dropdown-item">New Note</router-link>
+              </li>
+              <li>
+                <router-link :to="{name: 'notes.table'}" class="dropdown-item">Notes</router-link>
               </li>
               <li>
                 <a class="dropdown-item" href="#">Another action</a>
